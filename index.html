@@ -13,7 +13,25 @@
   <div class="main-container">
     <header class="header">
      <a href="#"><img src="assets/img/logo/Lookscout.png" alt=""></a>
-     <a href="#"><img src="assets/img/buttons/hamburger-menu-button.png" alt=""></a>
+     <a href="#"><img class="mobile tablet" src="assets/img/buttons/hamburger-menu-button.png" alt=""></a>
+     <ul class="navbar desktop">
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Ürünlerimiz</a></li>
+        <li>
+          <ul class="kaynaklar">
+            <li><a href="#">kaynaklar</a></li>
+            <li><a href="#"><img src="assets/img/chevron down.png" alt=""></a></li>
+          </ul>
+        </li>
+        <li><a href="#">İletişim</a></li>
+     </ul>
+
+      <div class="desktop">
+        <div class="log-buttons">
+          <a  class="log-in" href="#">Giriş Yap</a>
+          <a class="sign-up-button" href="#">Kayıt Ol</a>
+        </div>
+      </div>
    </header>
    
     <section class="hero-section">
@@ -61,7 +79,7 @@
 
         <div class="button">
           <button class="buy-button">
-          Şimdi Al
+          <a href="#">Şimdi Al</a>
         </button>
         </div>
 
@@ -95,7 +113,7 @@
 
         <div class="button">
           <button class="buy-button">
-          Şimdi Al
+          <a href="#">Şimdi Al</a>
         </button>
         </div>
       </div>
@@ -129,7 +147,7 @@
 
         <div class="button">
           <button class="buy-button">
-          Şimdi Al
+          <a href="#">Şimdi Al</a>
         </button>
         </div>
       </div>
@@ -205,45 +223,16 @@
       </div>
       <img class="mobile" src="assets/img/mobile-img.png" alt="">
       <img class="tablet" src="assets/img/tablet-img.png" alt="">
-      <img class="desktop" src="assets/img/mobile-img.png" alt="">
+      <img class="desktop" src="assets/img/desktop-img.png" alt="">
     </div>
     
     <!-- sector-end -->
-
-    <!-- <section class="reviews">
-      <h3 style="grid-area: title;">Müşterilerimizin Yorumları</h3>
-
-      <div class="review" style="grid-area: review-little;">
-       <img src="assets/img/Rating.png" alt="">
-       <p>"İhtiyaçlarımıza tamamen uyuyor. Kesinlikle yatırıma değer. Şirketiniz gerçekten güvenilir ve ürünü yüzde yüz kaliteli."</p>
-       <div class="author">
-        <img src="assets/img/profile-img/david.png" alt="">
-        <p>Dave Jones<br><span>UI/UX</span></p>
-       </div>
-      </div>
-      
-      <div class="review" style="grid-area: review-little;">
-       <img src="assets/img/Rating.png" alt="">
-       <p>"Sizin için satış bile yapabilirim sanırım. Hizmet mükemmeldi. Gerçekten mükemmeldi. Tekrar sipariş vereceğim!"</p>
-       <div class="author">
-        <img src="assets/img/profile-img/lisa.png" alt="">
-        <p>Morgan John<br><span>Müdür</span></p>
-       </div>
-      </div>
-      
-      <div class="review" style="grid-area: review-big;">
-       <img src="assets/img/Rating.png" alt="">
-       <p>"Her şeyi sorunsuz, keyifli ve zahmetsiz hale getirdiğiniz için teşekkürler! Bu projeye bayıldım. Ne kadar beğendiğimi anlatmaya kelimeler yetmez."</p>
-       <div class="author">
-        <img src="assets/img/profile-img/meller.png" alt="">
-        <p>Olivia Manson<br><span>CEO</span></p>
-       </div>
-      </div>
-    </section> -->
+    <h3 class="desktop-h3">Müşterilerimizin Yorumları</h3>
 
     <section class="reviews">
       <h3>Müşterilerimizin Yorumları</h3>
-
+      
+      
       <div class="review review1">
         <img src="assets/img/Rating.png" alt="">
         <p>"İhtiyaçlarımıza tamamen uyuyor. Kesinlikle yatırıma değer. Şirketiniz gerçekten güvenilir ve ürünü yüzde yüz kaliteli."</p>
@@ -251,47 +240,50 @@
           <img src="assets/img/profile-img/david.png" alt="">
           <p>Dave Jones<br><span>UI/UX</span></p>
         </div>
-     </div>
+      </div>
 
-     <div class="review review2">
+      <div class="review review2">
         <img src="assets/img/Rating.png" alt="">
         <p>"Sizin için satış bile yapabilirim sanırım. Hizmet mükemmeldi. Gerçekten mükemmeldi. Tekrar sipariş vereceğim!"</p>
         <div class="author">
           <img src="assets/img/profile-img/lisa.png" alt="">
           <p>Morgan John<br><span>Müdür</span></p>
         </div>
-     </div>
+      </div>
 
-    <div class="review review3">
+      <div class="review review3">
       <img src="assets/img/Rating.png" alt="">
       <p>"Her şeyi sorunsuz, keyifli ve zahmetsiz hale getirdiğiniz için teşekkürler! Bu projeye bayıldım. Ne kadar beğendiğimi anlatmaya kelimeler yetmez."</p>
       <div class="author">
         <img src="assets/img/profile-img/meller.png" alt="">
         <p>Olivia Manson<br><span>CEO</span></p>
       </div>
-    </div>
-  </section>
+    </section>
 
     <!-- review-end -->
 
     <div class="sign-up">
 
       <h2>Yeni dijital gerçekliğine hoş geldin. Vay canına.</h2>
-      <button class="buy-button">
-        Kayıt Ol
-      </button>
+      <div class="digital-button">
+        <button class="buy-button">
+          Kayıt Ol
+        </button>
 
-      <button class="sign-button">
-        Giriş Yap
-      </button>
+        <button class="sign-button">
+          Giriş Yap
+        </button>
+      </div>
     </div>
 
     <!-- sign-up-end -->
 
     <footer class="footer">
       <div class="footer-top">
-        <img src="assets/img/logo/Lookscout.png" alt="">
-        <p>Kalıpların dışında düşünün ve hedefinizi genişletin.</p>
+        <div>
+          <img src="assets/img/logo/Lookscout.png" alt="">
+          <p>Kalıpların dışında düşünün ve hedefinizi genişletin.</p>
+        </div>
         <div class="footer-info"> 
           <ul> <Span>Hakkımızda</Span>
             <li><a href="#">Rakiplerimiz</a></li>
